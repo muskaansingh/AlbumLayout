@@ -70,6 +70,15 @@ function App() {
         </Container>     
       
       </main>
+
+      <footer className={classes.footer}>
+            <Typography variant="h6" gutterBottom align="center">
+                FOOTER!
+            </Typography>
+            <Typography variant="subtitle1" align="center" color="textSecondary">
+                Some here to give footer a purpose!
+            </Typography>
+      </footer>
     </>
   );
 }
